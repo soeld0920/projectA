@@ -1,0 +1,52 @@
+.area > *{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #a6f;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+}
+.item header{
+  width: 170px;
+  height: 260px;
+  background-color: #5fa;
+}
+.item section ul{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.style{
+  display: flex;
+  justify-content: space-between;
+}
+.style header{
+  width: 170px;
+  height: 260px;
+  background-color: #5fa;
+}
+.style section ul{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.gobths{
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.gobths div{
+  height: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  align-content: space-between;
+}
