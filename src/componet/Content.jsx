@@ -64,10 +64,10 @@ function Content(){
         </article>
         <article className={styles.gobths}>
           <div>
-            <GoBtnBox src='/images/goto_shop01.png'/>
-            <GoBtnBox src='/images/goto_shop02.png'/>
+            <GoBtnBox src={process.env.PUBLIC_URL + '/images/goto_shop01.png'}/>
+            <GoBtnBox src={process.env.PUBLIC_URL + '/images/goto_shop02.png'}/>
           </div>
-          <GoBtnBox src='/images/goto_shop03.png'/>
+          <GoBtnBox src={process.env.PUBLIC_URL + '/images/goto_shop03.png'}/>
         </article>
         <article className={styles.info}></article>
       </ContentArea>
