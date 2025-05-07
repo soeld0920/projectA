@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
