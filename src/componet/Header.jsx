@@ -18,7 +18,7 @@ function Header(){
       <HeaderArea>
         <div className={styles.inner}>
           <div className={styles.Top}>
-            <h1 className={styles.logo}><img src={process.env.PUBLIC_URL + '/images/logo.jpg'} alt="" /></h1>
+            <h1 className={styles.logo}><img src={`${process.env.PUBLIC_URL}/images/logo.jpg`} alt="" /></h1>
             <div className={styles.qBox}>
               <ul className={styles.qMn}>
                 <li>New</li>

@@ -51,9 +51,9 @@ function Content(){
             <h3>STYLE OF <br />THE WEEK
             </h3>
             <ul>
-              <li><a href="#">menu1</a></li>
-              <li><a href="#">menu2</a></li>
-              <li><a href="#">menu3</a></li>
+              <li>menu1</li>
+              <li>menu2</li>
+              <li>menu3</li>
             </ul>
           </header>
           <section>
@@ -64,10 +64,10 @@ function Content(){
         </article>
         <article className={styles.gobths}>
           <div>
-            <GoBtnBox src={process.env.PUBLIC_URL + '/images/goto_shop01.png'}/>
-            <GoBtnBox src={process.env.PUBLIC_URL + '/images/goto_shop02.png'}/>
+            <GoBtnBox src={`${process.env.PUBLIC_URL}/images/goto_shop01.png`}/>
+            <GoBtnBox src={`${process.env.PUBLIC_URL}/images/goto_shop02.png`}/>
           </div>
-          <GoBtnBox src={process.env.PUBLIC_URL + '/images/goto_shop03.png'}/>
+          <GoBtnBox src={`${process.env.PUBLIC_URL}/images/goto_shop03.png`}/>
         </article>
         <article className={styles.info}></article>
       </ContentArea>

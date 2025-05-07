@@ -2,7 +2,7 @@ import React from "react";
 
 function BannerLi({banner}){
   return(
-    <li><img src={process.env.PUBLIC_URL + banner.src} alt="324" /></li>
+    <li><img src={`${process.env.PUBLIC_URL}${banner.src}`} alt="324" /></li>
   )
 }
 

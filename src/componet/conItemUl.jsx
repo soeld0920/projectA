@@ -4,7 +4,7 @@ function ItemLi({item, onToggle}){
   return(
     <>
       <li onClick={() => onToggle(item.id)} style={{width : '190px', height : '260px',border:'1px solid #333'}}>
-        <img src={process.env.PUBLIC_URL+item.src} alt="123" style={{width:'100%', borderBottom:'1px solid #333'}}/>
+        <img src={`${process.env.PUBLIC_URL}${item.src}`} alt="123" style={{width:'100%', borderBottom:'1px solid #333'}}/>
         <h4 style={{fontSize:'15px', paddingBottom:'10px',paddingLeft:'5px',fontWeight:(item.active ? '700' : '400')}}>{item.ttl}</h4>
         <p style={{fontSize:'12px', paddingBottom:'10px',paddingLeft:'5px',fontWeight:(item.active ? '700' : '400')}}>{item.price}</p>
       </li>
